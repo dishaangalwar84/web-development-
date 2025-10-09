@@ -1,0 +1,17 @@
+.box
+{
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.text
+{
+    text-shadow: -1px 2px 13px rgb(245, 108, 245);
+    outline: 2px solid black;
+    /* outline bhar lagti hai aur usko offset ke through bada sakte hai par esha border ke case mai nahi hota hai   */
+    outline-offset: 4px;
+    border: 3px solid yellow;
+    /* border andar lagti hai i.e. box model ka part hai wo  */
+    border-radius: 2px;
+    /* border ka radius laga sakte hai par outline ka nahi outline border ko follow karti hai  */
+}

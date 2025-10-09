@@ -1,0 +1,64 @@
+div,span 
+{
+    color: rgb(132, 4, 253);
+    background-color: rgb(236, 139, 139);
+}
+/* this is multiple selectors */
+/* class selector */
+.red
+{
+    background-color: rgb(236, 188, 126);
+}
+/* id selector  */
+#green
+{
+    background-color: rgb(120, 118, 224);
+}
+/* child selector  */
+div > p
+{
+    color: black;
+    background-color: aqua;
+}
+span >p{
+    color: black;
+    background-color: bisque;
+}
+p
+{
+    background-color: rgb(217, 217, 246);
+}
+/* decendent selector  */
+ div  p 
+{
+    color: black;
+    background-color: aqua;
+}
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* pseudo selector  */
+a:visited
+{
+    color: rgb(251, 5, 251);
+}
+a:link
+{
+    color: green;
+}
+a:active
+{
+    background-color: yellow;
+}
+a:hover
+{
+    background-color: rgb(237, 171, 91);
+}
+p:first-child
+{
+    background-color:rgb(255, 127, 148);
+    color: black;
+}
+

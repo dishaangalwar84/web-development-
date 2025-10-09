@@ -1,0 +1,18 @@
+ img 
+{
+    float:right;
+}
+.cards
+{
+    border: 2px solid black;
+     display: flow-root;
+}
+.card
+{
+    border: 2px solid rebeccapurple ;
+}
+.card:nth-child(3)
+{
+    background-color: antiquewhite;
+    clear: right;
+}

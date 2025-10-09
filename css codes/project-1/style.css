@@ -1,0 +1,47 @@
+.parent
+{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height:auto;
+    width:40vw;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+div h1{
+    text-transform: capitalize;
+    text-align: left;
+}
+div p
+{
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow: auto;
+}
+div form button
+{
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(195, 243, 243);
+    color: blue;
+    text-transform: capitalize;
+    border: none
+
+}
+form input
+{
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: none;
+    margin: 40px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+}
+.group
+{
+    text-align: left;
+}
+

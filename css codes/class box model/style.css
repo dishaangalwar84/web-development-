@@ -1,0 +1,23 @@
+.box
+{
+    background-color: aquamarine;
+}
+.box1
+{
+    color: blue;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid rgb(129, 12, 238);
+    height: 200px;
+    box-sizing: border-box;
+
+}
+.box2
+{
+    color: gray;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+}

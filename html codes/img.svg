@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+  <!-- Draw a blue rectangle -->
+  <rect width="200" height="100" fill="skyblue" stroke="black" stroke-width="5" />
+  </svg>

@@ -1,0 +1,37 @@
+:root
+{
+    /* these are global variable */
+    --color: rgb(236, 55, 179);
+    --seccolor: rgb(239, 144, 209);
+     --newcolor: rgb(245, 84, 111); 
+     --defpad:23px;
+}
+/* variables can hold colors,numbers,urls,string ye sab hold kar sakte hai.*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    background-color: var(--color)
+}
+.container
+{
+    background-color: var(--seccolor)
+}
+ul {
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: var(--defpad);
+    border: 3px  solid var(--newcolor);
+}
+ul li:first-child
+{
+    /* this  is local variable */
+    --color: rgb(127, 226, 188);
+    background-color: var(--color,blue);
+    /* this blue is called as the fall back variable agar koi color naam ka variable exist he nahi karega toh blue  color lag jaega */
+}

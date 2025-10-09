@@ -1,0 +1,37 @@
+body
+{
+    background-color: red;
+}
+@media screen and (orientation: landscape) {
+    body {
+        border:3px solid black ;
+    }
+}
+@media only screen and (max-width:455px){
+body
+{
+    background-color: blue;
+}
+.boxes
+{
+    flex-direction:column;
+}
+}
+body{
+    padding: 34px;
+}
+.boxes
+{
+     display:flex;
+    
+}
+.box
+{
+    background-color: steelblue;
+    width: 344px;
+    height: 34px;
+    padding: 4px;
+    margin: 3px;
+}
+/* @media not|only mediatype and (expression) { css code} */
+    /* in place of screen we can put all, printer and we also use speech devices if we are making a website for blind people */

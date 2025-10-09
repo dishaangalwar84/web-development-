@@ -1,0 +1,15 @@
+.box
+{
+    border: 2px solid  black;
+    width: 30vw ;
+    height: 30vh ;
+    /* this height:auto, width:auto cannot override the overflow */
+    /* overflow: scroll; */
+    /* isme ek scroll bar aaehga he bhale overflow kare ya na kare */
+    /* overflow: auto; */
+    /* isme scroll bar aaeha jab overflow karega agar overflow nahi karra toh nahi aaega. */
+    white-space: nowrap;
+    /* text-overflow:ellipsis; */
+    overflow: hidden auto;
+    /* (x,y) */
+}

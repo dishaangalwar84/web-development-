@@ -1,0 +1,56 @@
+.container
+{
+    border: 2px solid red;
+    display: flex;
+      height: 80vw; 
+     align-items: center; 
+    /* /* justify-content: center; there is nothing as justify-item:center;  */
+    /* agar hunme display flex use kiya jo bhi contents hote hai wo humesha flex direction mai lay hue hote hai jo ki by default left to right  hai aur usko change bhi kar sakte hai */
+    /* Main axis → Controlled by justify-content
+Cross axis → Controlled by align-items (for a single line) or align-content (for multiple lines) */
+     /* flex-direction: column;  */
+    /* flex-wrap: wrap; */ 
+    /* Allows items to wrap onto multiple lines when they don’t fit in one line.
+Without wrap, items will try to shrink to fit on one line. */ 
+    align-content: center;
+    /* we use this when we have multiple lines.Only works if flex-wrap: wrap is set and there are multiple lines.*/
+    /* flex-flow: row wrap; */
+    /* here we need to give the flex direction and the type of flex wrap we want at the same time */
+     gap:  30px 10px; 
+   /* gap:row column */
+}
+.item
+{
+    flex-grow:2; 
+    /* this means that all the items will take equal spaces 
+    and the extra space will be equally divided w.r.t. 2 */
+    height: 32px;
+    width: 32px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 5px; 
+}
+.order-1
+{
+    order:1;
+}
+.order-2
+{
+    order:2;
+}
+.order-3
+{
+    order:3;
+}
+.order-4
+{
+    order:4;
+}
+.item1
+{
+    flex-grow:6;
+    flex-shrink: 2;
+    /* this will make item1 shrink upto 2 */
+    align-self: flex-end;
+    /* element will get align according to the cross axis  */
+}

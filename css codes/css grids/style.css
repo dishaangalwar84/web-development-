@@ -1,0 +1,27 @@
+.container
+{
+    border: 2px solid black;
+    display: grid; 
+    grid-template-columns: [c1]120px [c2]100px [c3]; 
+    /* here first column will have size 120px and the next column will have 100px 1st item will go in column 1 and 2nd in column and so on*/
+    grid-template-rows: [r1]100px [r2]100px [r3]100px;
+    /* like this we can give names to the grids */
+}
+.item
+{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+.item4
+{
+     grid-row: 1/2;
+     /* this means that it will start form row 1 and ends before row 2 */
+    grid-column: 2/3;
+    /* this means that it will start from column 2 and end before column 3 */
+}
+.item1
+{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}

@@ -1,0 +1,43 @@
+   .box:first-child  /* in the syntax we write who is the first child and not whos first child its is */
+ {
+    background-color: red;
+} 
+ .box::first-line
+ {
+    color: aqua;
+ }
+ .boxes *{
+    border: 2px solid black;  
+  }
+  /* this means all the different elements that are present inside the boxes will get a border this is universal selector using child selector */ 
+p ,a, .box ,[data-color="primary"]
+/* this is called as grouping of selector */
+{
+    margin-top: 45px;
+}
+.box:nth-child(even)
+{
+    background-color: rgb(197, 132, 52);
+}
+.box:nth-last-child(2)
+{
+    background-color: antiquewhite;
+}
+.boxes::before
+{
+    content: "heyy disha on this side";
+}
+.boxes::after
+{
+    content: "hope you are doing well";
+}
+::selection
+{
+    color: blue;
+    background-color: yellow;
+}
+/* like this we can dymanically insert content through css */
+input::placeholder
+{
+    color: brown;
+}

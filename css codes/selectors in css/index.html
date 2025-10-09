@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disha css file</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- class selector is used here -->
+    <div class="red">
+        hey i  am div and i am a block element 
+        <!-- this is child selector -->
+        <p>i am a paragraph inside the div and hence this is what the colour i have got </p>
+    </div>
+    <!-- this is id selector -->
+    <div id="green">i am also a div </div>
+    <!-- to note -->
+    <span>hey i am span and i am a inline element
+        <p>i am a paragraph inside span and hence this is what the colour i have got and not the colour that was for the para present in the div because i am present in different element.</p>
+    </span>
+    <!-- to note -->
+    <div>
+        <article>
+            <p>
+                i am a para which is inside article and article is inside div hence i got this colour because here div is not directly related to para means it not the direct child of div hence it got the colour that was given to span. now i have given colour to para i.e. p and it  has got blue colour because it is not declated as a child of article and hence it is considered as a single element 
+            </p>
+        </article>
+    </div>
+   <div>
+    <span>
+        <p>
+            since div is a decendent of p hence it has got this  colour. the words present in the para will get this colour even if p is not the direct child of div..it should be just present inside it.
+        </p>
+        <p>hey i am second child hence my colour did not change.</p>
+    </span>
+   </div>
+   <a href="https://www.google.com">go to google</a>
+   <a href="https://www.facebook.com">go to facebook</a>
+</body>
+</html>
+

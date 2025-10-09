@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+h1 {
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 5000px;
+    font-style: oblique;
+    text-align: center;
+    /* various methods to give colour  */
+    /* color: darkred; */
+    /* color:  #RRGGBB; */
+     /* color: rgb(173, 94, 94); */
+     /* color: rgba(45, 34, 45, 40, 0.5); */
+     color: hsl(235,100%,50%);
+}
+h2 {
+    /* used to captilize only the first letter of word  */
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 4px;
+     text-indent: 200px;
+}

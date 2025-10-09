@@ -1,0 +1,16 @@
+.box
+{
+    border: 2px solid blue;
+    display: inline-block;
+    margin: 35px;
+    padding: 88px;
+    width: 344px;
+    height: auto;
+}
+.box1
+{
+    /* display: none; */
+    /* visibility: hidden; */
+    display: flex;
+    justify-content: center;
+}

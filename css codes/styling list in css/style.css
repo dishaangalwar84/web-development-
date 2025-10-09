@@ -1,0 +1,11 @@
+nav ul li{
+    list-style:decimal-leading-zero;
+    /* list-style-type: disc; */
+    list-style-position: inside;
+    /* border: 2px solid black; */
+    /* background-color: azure; */
+    /* isko eshe bhi likh sakte hai  */
+    /* list-style: disc inside; */
+     list-style: none;
+     display: flex;
+}

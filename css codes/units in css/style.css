@@ -1,0 +1,41 @@
+html{
+    font-size: 12px;
+}
+.box
+{
+    border: 2px solid black;
+    /* width is only applicable to block elements it does not have any effects on inline elements and if i am writing vw then there is no need to write auto in case of width*/
+     width: 80vw; 
+    background-color: aquamarine;
+    box-sizing: border-box;
+    /* this margin auto can only be used for block elements  */
+      margin: 23px auto; 
+    text-align: center;
+    height: 10vh;
+     font-size: 2rem; 
+}
+.container
+{
+    border: 2px solid black;
+       width: 80vw; 
+    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 23px auto;
+    /* in case of height it is imp  to  write auto*/
+    height: 80vh auto ;
+    font-size: 16px;
+    /* here in this device vin is the height but in phones vin is the width and vise versa for vmax vin is same as vh in this device and vw is same as vmax in this device and vise versa for phones */
+    width:100vmax;
+     min-height: 80vh;
+      /* minimum itni rehegi par agar jada content bhi daale toh ye badhta he jaega. */
+}
+ p
+{
+    font-size: 2em;
+    /* this means that parent ke width ki 50%  */
+    width: 50%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

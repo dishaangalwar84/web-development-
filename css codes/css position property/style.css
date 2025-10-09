@@ -1,0 +1,53 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.parent
+{
+    border: 2px solid red;
+    margin: 23px;
+    padding: 23px;
+    /* transfer, filter and perspective properties can also make a element look positioned*/
+}
+.box
+{
+    border: 2px solid black;
+    height: 433px;
+    width: 80vw;
+    margin: 10px;
+}
+.box1
+{
+    background-color: aqua;
+    /* by default the boxes are static so if we want to move them we need to use some attribute other then static. */
+    /* ye absolute attribute mai jo bhi lagta hai wo aapne positioned ansestor ke relative lagta hai jaise yaha na he parent div positioned hai na he body, head toh ye last mai html ke relative mai top:0 left:0 lag jaega*/
+    /* position:absolute;
+    top: 0px;
+    left: 0px; */
+    /* z-index is used  when  we want to something on top of something but also for this we need attribute other than static. */
+    /* z-index: 2; */
+    position: sticky;
+    top:0px;
+    height: 12px;
+    /* isko nav bar banae ke liye use kar sakte hai */
+}
+.box2
+{
+    background-color: antiquewhite;
+       /* position: relative;  */
+    /* top: 23px;
+    left: 23px; */ 
+    /* The element is positioned relative to its original position in the normal flow of the document. */
+} 
+.box3
+{
+    background-color: bisque;
+    /* position: fixed; */
+    /* isse box 3 fix ho jega even if we scroll wo wahi pe rehega move nahi karega. */
+}
+.box4
+{
+    background-color: blueviolet;
+}
